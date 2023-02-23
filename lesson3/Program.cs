@@ -25,7 +25,7 @@ PrintThirdDigit(result);*/
     z1 = Convert.ToInt32(Console.ReadLine());
      Point p1 = new Point(x, y, z);
      Point p2 = new Point(x1, y1, z1);
-     Console.WriteLine(Distance(p1, p2));
+     Console.WriteLine("{0:0.00}",Distance(p1, p2));
 
      struct Point{
         public Point(int x1, int y1, int z1){
